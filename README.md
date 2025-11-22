@@ -27,7 +27,7 @@ https://youtube.com/shorts/YEi6yk-oYfM?feature=share
 To play back a sequence of command, you can press "Load Command File" and choose a text file containing a sequence of command (a sample sequence named pick and drop.txt is shared in this repo). After that, you press "Run Sequence" and the Python GUI will send the commands, one-by-one, to the Arduino, wait for "OK" message from the Arduino, and the send the next command until finish.
 
 To run the Python GUI, you can:
-- Open the Python code in VSCode
+- Open the Python code in VSCode. Change the SERIAL_PORT variable to the appropriate COM port number. For my case SERIAL_PORT = "COM3"
 - Open Terminal in VSCode and install pyserial using "pip install pyserial"
 - Run the code by clicking "Run Python file" button in the top right corner.
 
