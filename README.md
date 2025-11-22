@@ -22,7 +22,7 @@ You can finely adjust the servos' positions by using the up and down buttons bel
 
 The RESET button will move all servos to mid position (90 degree) and the arm will point straight up.
 
-https://youtube.com/shorts/YEi6yk-oYfM?feature=share
+https://www.youtube.com/watch?v=YEi6yk-oYfM
 
 To play back a sequence of command, you can press "Load Command File" and choose a text file containing a sequence of command (a sample sequence named pick and drop.txt is shared in this repo). After that, you press "Run Sequence" and the Python GUI will send the commands, one-by-one, to the Arduino, wait for "OK" message from the Arduino, and the send the next command until finish.
 
