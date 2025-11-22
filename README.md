@@ -28,7 +28,7 @@ To play back a sequence of command, you can press "Load Command File" and choose
 
 To run the Python GUI, you can:
 - Open the Python code in VSCode. Change the SERIAL_PORT variable to the appropriate COM port number. For my case SERIAL_PORT = "COM3"
-- Open Terminal in VSCode and install pyserial using "pip install pyserial"
+- Open Terminal in VSCode and install pyserial using "pip install pyserial" (you only need to do this once).
 - Run the code by clicking "Run Python file" button in the top right corner.
 
 ![alt text](image-2.png)
